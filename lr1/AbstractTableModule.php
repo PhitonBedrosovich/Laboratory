@@ -1,4 +1,4 @@
-?php
+<?php
 abstract class AbstractTableModule {
     abstract public function insert($data);
     abstract public function getALl();
