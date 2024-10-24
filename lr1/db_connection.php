@@ -20,7 +20,7 @@ class DBConnection {
             } catch(PDOException $e) {
                 die("Connection failed: " . $e->getMessage());
             }
-        }
+        }Hello
         return self::$instance;
     }
 
