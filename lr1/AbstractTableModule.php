@@ -4,5 +4,4 @@ abstract class AbstractTableModule {
     abstract public function getALl();
     abstract public function delete($id);
     abstract public function getById($id);
-    abstract public function test($id);
 }
