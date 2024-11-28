@@ -50,7 +50,6 @@ class Menus extends Api {
     const formData = new FormData();
     formData.append('id', menu.id);
     formData.append('name', menu.name);
-     formData.append('username24', menu.name);//добавил
 
     return this.rest('/menus/update-item', {
       method: 'POST',
